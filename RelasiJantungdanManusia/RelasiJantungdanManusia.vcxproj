@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{87497a5c-7f43-4e22-a83e-5dbe494ab036}</ProjectGuid>
-    <RootNamespace>RelasiDanPewarisan</RootNamespace>
+    <ProjectGuid>{77f20249-3a1b-45c6-8b8a-b112972e6d6c}</ProjectGuid>
+    <RootNamespace>RelasiJantungdanManusia</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,7 +127,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="RelasiDanPewarisan.cpp" />
+    <ClCompile Include="RelasiJantungdanManusia.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="JantungHeader.h" />
+    <ClInclude Include="ManusiaHeader.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
