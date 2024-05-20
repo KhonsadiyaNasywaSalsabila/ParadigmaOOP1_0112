@@ -130,6 +130,9 @@
     <ClCompile Include="JantungHeader.h" />
     <ClCompile Include="RelasiDanPewarisan.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ManusiaHeader.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
